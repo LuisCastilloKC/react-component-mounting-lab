@@ -11,7 +11,9 @@ class App extends Component {
 
 
   //Your code here:
-
+  componentDidMount() {
+    this.handleAddTimer()
+  }
 
 
 
@@ -58,5 +60,6 @@ class App extends Component {
 
 
 }
+
 
 export default App;
